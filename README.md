@@ -8,7 +8,7 @@ Para editar esse site siga as instrunções
 
 ## Instalar o Jekyll no ubuntu
 
-1. Abra um terminal e instale o ruby e suas dependencias       
+1. Abra um terminal e instale o ruby e suas dependencias
 
        sudo apt-get install ruby-full build-essential zlib1g-dev
 
@@ -51,7 +51,8 @@ http://127.0.0.1:4000
 
 3. A pagina inicial está em html e deve ser editada no arquivo que está no endereço `_layouts/home.html`
 
-4. As configurações de estilo estão na pasta `_sass` e na pasta `assets/stylesheets` e deve haver alguma diferença entre elas, a @tdruiva pode nos ensinar e/ou compartilhar um material legal sobre isso.
+4. As configurações de estilo estão na pasta `assets/stylesheets`, se precisar editar o estilo de uma página específica, é só modificar/adicionar um arquivo desta pasta.
+O estilo do template que usamos está na na pasta `_sass`, se quiser modificar algo que reflita em todo o site, é aí que precisa mexer.
 
 5. As páginas estáticas da secção saiba mais está na `saibamais/` e devem ser editadas no estilo [markdown](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
 
