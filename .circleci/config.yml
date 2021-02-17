@@ -13,3 +13,12 @@ jobs:
           name: Instalar Bundler
           command: gem install bundler
       - ruby/bundle-install
+      - run:
+          name: Criar diretorio para o site
+          command: mkdir -p /tmp/site
+      - run:
+          name: Gerar o site
+          command: bundle exec jekyll build --destination /tmp/site
+      - run:
+          name: Publicar o site
+          command: sh scripts/publicar.sh
