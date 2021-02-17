@@ -10,7 +10,7 @@ setup_git() {
 comitar() {
   echo 'Comitar o site'
   git checkout -b gh-pages
-  mv /tmp/site/* .
+  cp -r /tmp/site/* .
   git add .
   git commit --message "Automagicamente publicando n# $CIRCLE_BUILD_NUM"
 }
