@@ -17,7 +17,7 @@ comitar() {
 
 publicar() {
   echo 'Publicando o site'
-  git push --quiet --set-upstream origin-pages gh-pages
+  git push --quiet --set-upstream origin gh-pages
 }
 
 setup_git
