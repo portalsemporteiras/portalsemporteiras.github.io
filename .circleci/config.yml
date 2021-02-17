@@ -4,9 +4,6 @@ orbs:
 
 jobs:
   build:
-    filters:
-      branches:
-        only: master
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
     executor: ruby/default
@@ -28,3 +25,11 @@ jobs:
       - run:
           name: Publicar o site
           command: sh scripts/publicar.sh
+workflows:
+  version: 2
+  build_and_publish:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
