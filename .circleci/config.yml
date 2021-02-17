@@ -1,0 +1,27 @@
+version: 2.1
+orbs:
+  ruby: circleci/ruby@0.1.2
+
+jobs:
+  build:
+    docker:
+      - image: circleci/ruby:2.6.3-stretch-node
+    executor: ruby/default
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "59:1a:9c:ab:5e:b5:69:74:ce:44:f4:61:ff:a1:33:c5"
+      - run:
+          name: Instalar Bundler
+          command: gem install bundler
+      - ruby/bundle-install
+      - run:
+          name: Criar diretorio para o site
+          command: mkdir -p /tmp/site
+      - run:
+          name: Gerar o site
+          command: bundle exec jekyll build --destination /tmp/site
+      - run:
+          name: Publicar o site
+          command: sh scripts/publicar.sh
