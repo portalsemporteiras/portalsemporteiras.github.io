@@ -22,6 +22,6 @@ publicar() {
   git push --quiet --set-upstream origin-pages gh-pages
 }
 
-setup_git()
-comitar()
-publicar()
+setup_git
+comitar
+publicar
