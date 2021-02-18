@@ -6,7 +6,6 @@ setup_git() {
   git config --global user.email "robozin@circleci.com"
   git config --global user.name "Maquina Viva"
   git checkout -b gh-pages
-  git pull --rebase origin gh-pages
 }
 
 comitar() {
@@ -18,6 +17,7 @@ comitar() {
 
 publicar() {
   echo 'Publicando o site'
+  git pull --rebase origin gh-pages
   git push --quiet --set-upstream origin gh-pages
 }
 
