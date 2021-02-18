@@ -11,7 +11,7 @@ setup_git() {
 
 comitar() {
   echo 'Comitar o site'
-  rsync -av /tmp/site/* .
+  cp -r /tmp/site/* .
   git add .
   git commit --message "Automagicamente publicando n# $CIRCLE_BUILD_NUM"
 }
