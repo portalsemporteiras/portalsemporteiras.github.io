@@ -2,7 +2,7 @@
 encoding: UTF-8
 languages: ["pt", "en"]
 default_lang: "pt"
-exclude_from_localization: ["javascripts", "images", "css", "README.md", "LICENSE", "fonts", "musicas", "documentos"]
+exclude_from_localization: ["javascripts", "images", "css", "README.md", "LICENSE", "fonts", "musicas", "documentos", "scripts"]
 parallel_localization: true
 permalink: /blog/:year/:month/:day/:title/
 
