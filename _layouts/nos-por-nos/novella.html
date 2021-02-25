@@ -9,5 +9,16 @@ layout: nos-por-nos/base
 {{ content }}
 </div>
 
-<div class="eps-novella">
+<div class="capitulos">
+  {% for capitulo in site.data.novella.capitulos %}
+  {% assign audio = site.baseurl | append: capitulo.direcao_audio %}
+  <div class="capitulo" id="{{ forloop.index }}">
+    <div class="em-breve">
+      <a href="{{ audio }}" class="download" title="Download"></a>
+      <strong>{{ nos-por-nos.capitulo | append: forloop.index }}</strong>
+    </div>
+    <audio controls>
+      <source src="{{ audio }}">
+    </audio>
+  {% endfor %}
 </div>
