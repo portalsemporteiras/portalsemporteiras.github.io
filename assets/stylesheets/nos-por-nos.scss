@@ -1,5 +1,6 @@
 ---
 ---
+$azul: #62c3e6;
 $azul-claro: #c9f1fe;
 $azul-escuro: #005776;
 $laranja-transparente: rgba(255, 100, 0, 0.6);
@@ -18,11 +19,10 @@ $verde: #577600;
 }
 
 .body .unit-body {
-  background-image: url('../images/nos-por-nos/fundo.jpg');
-  background-position: bottom;
-  background-color: #62c3e6;
+  background-image: url('../images/nos-por-nos/bg-acima-direita.png'), url('../images/nos-por-nos/bg-abaixo-direita.png'), url('../images/nos-por-nos/bg-abaixo-esquerda.png'), url('../images/nos-por-nos/bg-acima-esquerda.png');
+  background-position: right top, right bottom, left bottom, left top;
+  background-color: $azul;
   background-repeat: no-repeat;
-  background-size: contain;
 
   @media only screen and (max-width: 540px) {
     background-image: initial;
