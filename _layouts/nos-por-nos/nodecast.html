@@ -3,7 +3,9 @@ layout: nos-por-nos/base
 ---
 {% assign nos-por-nos = site.data[page.lang].nos-por-nos %}
 
-<img alt="{{ nos-por-nos.descricao-capa-nodecast}}" src="{{ site.url }}/assets/images/nos-por-nos/nodecast.png"/>
+<div class="capa">
+  <img alt="{{ nos-por-nos.descricao-capa-nodecast}}" src="{{ site.baseurl }}/assets/images/nos-por-nos/capa-nodecast.png"/>
+</div>
 
 <div class="texto">
   {{ content }}
@@ -35,11 +37,4 @@ layout: nos-por-nos/base
     {% endif %}
   </div>
   {% endfor %}
-
-  <div class="cartazes">
-  {% for nodecast in nodecasts %}
-    {% assign cartaz = nodecast.cartaz %}
-    <img src="{{ site.url | append: '/assets/images/nos-por-nos/' | append: cartaz.arquivo }}" title="{{ cartaz[page.lang] }}"/>
-  {% endfor %}
-  </div>
 </div>

@@ -1,42 +1,22 @@
 - audio: npn_ep1_protecao.mp4
-  cartaz: {
-    arquivo: nodecast-1.jpeg,
-    en: A poster with a moon's draw, inviting to listen to live podcast and questioning what you have done to protect yourself,
-    pt: Um cartaz com o desenho da lua, convidando para escutar o podcast ao vivo e perguntando o que você tem feito para se proteger
-  }
   titulo: {
     en: Digital Self-care,
     pt: Autocuidado Digital
   }
   transcricao: transcricao-selfcare
 - audio: npn_ep2_virus.mp3
-  cartaz: {
-    arquivo: nodecast-2.jpeg,
-    en: A poster with hand and virus draws, inviting to listen to 2nd nodecast episode,
-    pt: Um cartaz com o desenho de uma mão e vírus, convidando para escutar o segundo episódio do nodecast
-  }
   titulo: {
     en: Virus!,
     pt: Vírus!
   }
   transcricao: transcricao-virus
 - audio: npn_ep3_sonhos.mp3
-  cartaz: {
-    arquivo: nodecast-3.jpeg,
-    en: A poster with a dark night with starts, inviting to listen to nodecast,
-    pt: Um cartaz de uma escura noite estrelada, convidando para escutar o nodecast
-  }
   titulo: {
     en: Dreams and Digital Unconscious,
     pt: Sonhos e Incosciente Digital
   }
   transcricao: transcricao-dreams
 - audio: npn_ep4_cercas.ogg
-  cartaz: {
-    arquivo: nodecast-4.jpeg,
-    en: A poster with montains, a person farming at the botton right, houses falling from the sky and at botton left a indiginous house with wifi signal on top of it,
-    pt: Um cartaz com montanhas, uma pessoa na fazenda no canto direito inferior, casas caindo do céu e no canto esquerdo inferior uma ôca com o simbolo de wifi no topo dela
-  }
   titulo: {
     en: "Fences",
     pt: "Cercas"
