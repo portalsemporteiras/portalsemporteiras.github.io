@@ -3,7 +3,9 @@ layout: nos-por-nos/base
 ---
 {% assign nos-por-nos = site.data[page.lang].nos-por-nos %}
 
-<img alt="{{ nos-por-nos.descricao-capa-2020 }}" src="{{ site.baseurl }}/assets/images/nos-por-nos/capa-2020.png"/>
+<div class="capa">
+  <img alt="{{ nos-por-nos.descricao-capa-2020 }}" src="{{ site.baseurl }}/assets/images/nos-por-nos/capa-2020.png"/>
+</div>
 
 <div class="texto">
   {{ content }}
