@@ -184,7 +184,8 @@ h1 {
   }
 }
 
-.episodio {
+.episodio,
+.capitulo {
   background-color: $ocre;
   margin-bottom: 15px;
   padding: 10px;
@@ -199,24 +200,27 @@ h1 {
   }
 
   audio {
-    width: 90%;
     padding: 10px;
+    width: 70%;
+
+    @media only screen and (min-width: 1000px) {
+      width: 90%;
+    }
   }
 }
 
 .download {
   content: "Download";
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   left: 0;
-  margin: 5px 15px 15px;
+  margin: 8px;
   background-image: url("../images/simple-icons/download-40.png");
   background-position: center;
   background-repeat: no-repeat;
   background-color: $laranja;
   background-position: bottom;
-  border-radius: 10px;
 
   @media only screen and (min-width: 1000px) {
     width: 40px;

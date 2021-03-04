@@ -3,7 +3,9 @@ layout: nos-por-nos/base
 ---
 {% assign nos-por-nos = site.data[page.lang].nos-por-nos %}
 
-<img alt="{{ nos-por-nos.descricao-capa-novella}}" src="{{ site.baseurl }}/assets/images/nos-por-nos/capa-novella.png"/>
+<div class="capa">
+  <img alt="{{ nos-por-nos.descricao-capa-novella}}" src="{{ site.baseurl }}/assets/images/nos-por-nos/capa-novella.png"/>
+</div>
 
 <div class="texto">
 {{ content }}
@@ -11,14 +13,21 @@ layout: nos-por-nos/base
 
 <div class="capitulos">
   {% for capitulo in site.data.novella.capitulos %}
-  {% assign audio = site.baseurl | append: capitulo.direcao_audio %}
+  {% assign gerais = site.data[page.lang].gerais %}
   <div class="capitulo" id="{{ forloop.index }}">
-    <div class="em-breve">
-      <a href="{{ audio }}" class="download" title="Download"></a>
-      <strong>{{ nos-por-nos.capitulo | append: forloop.index }}</strong>
+    <div>
+      <strong>{{ nos-por-nos.capitulo }} {{ forloop.index }}</strong>
     </div>
+    {% if capitulo.direcao_audio != '' %}
+    {% assign audio = site.baseurl | append: capitulo.direcao_audio %}
+    <a href="{{ audio }}" class="download" title="Download"></a>
     <audio controls>
       <source src="{{ audio }}">
+      {{ gerais.falta_audio }}
     </audio>
+    {% else %}
+    <div class="em-breve"><h3>{{ gerais.chegando }}</h3></div>
+    {% endif %}
+  </div>
   {% endfor %}
 </div>

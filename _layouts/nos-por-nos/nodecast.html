@@ -17,11 +17,12 @@ layout: nos-por-nos/base
   {% assign audio = site.url | append: '/assets/musicas/' | append: nodecast.audio %}
   <div class="episodio" id="{{ forloop.index }}">
     <div class="nome">
-      <a href="{{ audio }}" class="download" title="Download"></a>
       <strong>{{ nodecast.titulo[page.lang] }}</strong>
     </div>
+    <a href="{{ audio }}" class="download" title="Download"></a>
     <audio controls>
       <source src="{{ audio }}">
+      {{ gerais.falta_audio }}
     </audio>
 
     {% if page.lang == 'en' %}

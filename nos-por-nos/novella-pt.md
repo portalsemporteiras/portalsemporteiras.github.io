@@ -15,4 +15,4 @@ Cada um deu sua contribuição e agora chega a hora em que as partes dessa hist�
 
 **O Segredo da Montanha** acompanha Sabrina por uma jornada de revelações e desafios durante a semana das festas de Santa Rita no bairro do Souzas.
 
-Escute os 6 episódios aqui:
+Escute os 6 capítulos aqui:
