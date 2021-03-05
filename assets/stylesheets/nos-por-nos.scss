@@ -277,6 +277,20 @@ h1 {
   opacity: 0.6;
 }
 
+.midia {
+  display: flex;
+}
+
+.capitulos {
+  flex-grow: 1;
+}
+
+.album {
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+
 .gotop {
   background-color: $laranja-transparente;
 }
