@@ -283,6 +283,11 @@ h1 {
 
 .midia {
   display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: 1000px) {
+    flex-direction: row;
+  }
 }
 
 .capitulos {
@@ -290,8 +295,10 @@ h1 {
 }
 
 .album {
-  width: 40%;
   padding: 20px;
+  @media only screen and (min-width: 1000px) {
+    width: 40%;
+  }
 }
 
 .miniatura {
