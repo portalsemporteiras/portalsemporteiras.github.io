@@ -38,6 +38,10 @@ $verde: #577600;
   font-size: 1.5em;
 }
 
+.idioma a {
+  background-color: white;
+}
+
 .cabecalho{
   text-align: center;
 
@@ -286,9 +290,29 @@ h1 {
 }
 
 .album {
-  width: 250px;
-  text-align: center;
+  width: 40%;
   padding: 20px;
+}
+
+.miniatura {
+  display: flex;
+}
+
+.miniatura img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.miniatura img:hover {
+  opacity: 1;
+}
+
+.ampliado {
+  position: relative;
+}
+
+.ampliado img {
+  width: 100%;
 }
 
 .gotop {

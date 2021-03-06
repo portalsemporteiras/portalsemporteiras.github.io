@@ -35,9 +35,9 @@
                   <div class="content">
                     <div class="idioma">
                       {% assign nos-por-nos = site.data[page.lang].nos-por-nos %}
-                      <a href=" {{ site.url | append: '/en' | append: page.url }}" title="{{ site.data['en'].nos-por-nos.link-idioma }}">EN</a>
+                      <a href=" {{ site.baseurl | append: '/en' | append: page.url }}" title="{{ site.data['en'].nos-por-nos.link-idioma }}">EN</a>
                       |
-                      <a href=" {{ site.url | append: page.url }}" title="{{ site.data['pt'].nos-por-nos.link-idioma }}">PT</a>
+                      <a href=" {{ site.baseurl | append: page.url }}" title="{{ site.data['pt'].nos-por-nos.link-idioma }}">PT</a>
                     </div>
                     <div class="cabecalho">
                       <h1>
