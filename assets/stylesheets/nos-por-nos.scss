@@ -5,7 +5,7 @@ $azul-claro: #c9f1fe;
 $azul-escuro: #005776;
 $laranja-transparente: rgba(255, 100, 0, 0.6);
 $laranja: rgba(255, 100, 0, 1);
-$ocre: rgba(222, 104, 64, 0.3);
+$opaco: rgba(222, 104, 64, 0.3);
 $violeta: #760057;
 $verde: #577600;
 
@@ -101,10 +101,10 @@ h1 {
     flex-basis: 50%;
   }
 
-  >p{
+  >*{
     padding: 10px;
     border: black solid;
-    background-color: $azul-escuro;
+    background-color: $azul-claro;
 
     a {
       background-color: $laranja;
@@ -190,7 +190,7 @@ h1 {
 
 .episodio,
 .capitulo {
-  background-color: $ocre;
+  background-color: $opaco;
   margin-bottom: 15px;
   padding: 10px;
   text-align: center;
@@ -303,6 +303,7 @@ h1 {
 
 .miniatura {
   display: flex;
+  height: 50px;
 }
 
 .miniatura img {
