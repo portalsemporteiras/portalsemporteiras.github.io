@@ -15,4 +15,6 @@ Each one gave their contribution and now the time comes for the parts of this st
 
 **The Secret of the Mountain** accompanies Sabrina through a journey of revelations and challenges during the week of celebrations of St. Rita, the patron saint of the neighborhood of Souzas.
 
+**TRIGGER WARNING: This narrative approaches themes of domestic violence and child abuse.**
+
 Listen to the 6 chapters here:
