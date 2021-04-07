@@ -22,3 +22,8 @@
     pt: "Cercas"
   }
   transcricao: transcricao-fences
+- audio: npn_ep5_construcao.mp3
+  titulo: {
+    en: "Territory Construct",
+    pt: "Construção de Território"
+  }
