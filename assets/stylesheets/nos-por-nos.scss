@@ -268,7 +268,9 @@ h1 {
 #transcricao-selfcare:not(:target),
 #transcricao-dreams:not(:target),
 #transcricao-virus:not(:target),
-#transcricao-fences:not(:target) {
+#transcricao-fences:not(:target),
+#transcricao-building:not(:target),
+#transcricao-spinning:not(:target) {
   display: none;
   opacity: 0;
 }
