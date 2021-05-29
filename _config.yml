@@ -1,6 +1,6 @@
 # Site Settings
 encoding: UTF-8
-languages: ["pt", "en"]
+languages: ["pt", "en", "es"]
 default_lang: "pt"
 exclude_from_localization: ["javascripts", "images", "css", "README.md", "LICENSE", "fonts", "musicas", "documentos", "scripts"]
 parallel_localization: true
