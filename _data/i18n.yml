@@ -1,7 +1,7 @@
 pt: &pt
   about: 'Sobre'
   articles: 'Artigos'
-  back_to_top: 'Volta ↑'
+  back_to_top: 'Sobe ↑'
   categories: 'Categorias'
   close: 'Fechar'
   last_updated: 'Último atualizado'
@@ -27,7 +27,6 @@ pt: &pt
   tags: 'Tags'
   theme_info: '<p><small>Tema <a href="https://github.com/yizeng/jekyll-theme-simple-texture" target="_blank">Simple Texture</a> desenvolvido por <a href="https://yizeng.me" target="_blank">Yi Zeng</a>, empoderado por <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.</small></p>'
   view: 'Ver'
-
 
 en: &en
   about: 'About'
@@ -68,3 +67,33 @@ en-ca:
   <<: *en
 en-nz:
   <<: *en
+
+es: &es
+  about: 'Acerca'
+  articles: 'Articulos'
+  back_to_top: 'Arriba ↑'
+  categories: 'Categorias'
+  close: 'Cierra'
+  last_updated: 'Ultimos actualizados'
+  menu: 'Menu'
+  more: 'Mas'
+  next_post: 'Proximo Post'
+  notice_no_js: 'Uuuu... si ve que el JavaScript no esta habilitado.'
+  notice_old_ie: 'Estas utilizando un navegador viejito. Porfa, <a href="http://browsehappy.com/" target="_blank">actualize su navegador</a>:
+  page_404_content: 'Opa! Seras redireccionada a la <a href="/">pagina inicial</a> en poco segundos.'
+  page_404_heading: 'Disculpa, página no encontrada.'
+  published: 'Publicado'
+  redirecting: 'Redireccionando...'
+  search: 'Search'
+  search_not_found: 'Oh nooo<br/><small>No encontrado :(</small>'
+  search_placeholder: 'Busqueda...'
+  search_results: 'Resultado de la busqueda'
+  unsupported: 'Disculpa, pero suena que tu navegador no toca audios.'
+  share_post: 'Compartir Post:'
+  show: 'Show'
+  show_author: 'Show Autora'
+  show_comments: 'Show Commentarios'
+  show_license: 'Show Licensa'
+  tags: 'Tags'
+  theme_info: '<p><small>Tema <a href="https://github.com/yizeng/jekyll-theme-simple-texture" target="_blank">Simple Texture</a> desarrollado por <a href="https://yizeng.me" target="_blank">Yi Zeng</a>, empoderado por <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.</small></p>'
+  view: 'Ver'
