@@ -11,6 +11,7 @@ layout: nos-por-nos/base
   {{ content }}
 
   {% assign apostila = nos-por-nos.apostila %}
+  {% if apostila %}
   <div class="apostila">
     <a href="{{ site.url | append: apostila.arquivo }}" title="{{ apostila.msg-download }}">
       <span>{{ apostila.titulo }}</span>
@@ -24,4 +25,5 @@ layout: nos-por-nos/base
     </a>
     {% endif %}
   </div>
+  {% endif %}
 </div>
