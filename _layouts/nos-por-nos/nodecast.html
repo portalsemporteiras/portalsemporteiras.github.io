@@ -17,7 +17,7 @@ layout: nos-por-nos/base
   {% assign audio = site.url | append: '/assets/musicas/' | append: nodecast.audio %}
   <div class="episodio" id="{{ forloop.index }}">
     <div class="nome">
-      <strong>{{ nodecast.titulo[page.lang] }}</strong>
+      <strong>{{ nodecast[page.lang].titulo }}</strong>
     </div>
     <a href="{{ audio }}" class="download" title="Download"></a>
     <audio controls>
@@ -25,13 +25,15 @@ layout: nos-por-nos/base
       {{ gerais.falta_audio }}
     </audio>
 
-    {% if page.lang == 'en' %}
-    <a href="#{{ nodecast.transcricao }}" class="abrir">Transcription</a>
-    <div id="{{ nodecast.transcricao }}" class="modal">
+    {% if page.lang != 'pt' %}
+    {% assign transcricao = nodecast[page.lang].transcricao %}
+    <a href="#{{ transcricao }}" class="abrir">Transcription</a>
+    <div id="{{ transcricao }}" class="modal">
       <div class="transcricao">
         <a class="fechar" href="#{{ forloop.index }}">X</a>
         <div>
-          {{ site.data.nodecasts[nodecast.transcricao].conteudo | newline_to_br }}
+
+          {{ site.data.nodecasts[transcricao].conteudo | newline_to_br }}
         </div>
       </div>
     </div>

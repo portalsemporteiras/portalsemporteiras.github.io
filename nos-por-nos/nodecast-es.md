@@ -8,9 +8,9 @@ Nodecast es un proyecto de producción de contenidos de Portal sem Porteiras. Me
 
 Por ejemplo:
 
-¿cómo te has cuidado? + seguridad digital
-¿a quién le ha tocado esta pandemia que no debía? + virus informáticos
-¿qué has soñado en la pandemia? + algoritmos
+ - ¿cómo te has cuidado? + seguridad digital
+ - ¿a quién le ha tocado esta pandemia que no debía? + virus informáticos
+ - ¿qué has soñado en la pandemia? + algoritmos
 
 Los audios que recibimos eran muy profundos y delicados. Para nosotros era algo muy sagrado. Y para ellas, escucharse a sí mismas en el programa fue poderoso. Al principio queríamos que este podcast fuera algo que sólo escucharan las mujeres. Peronos dimos cuenta de que era muy diferente de los círculos presenciales, ¡que no tenemos control sobre quién escucha!.Y ya que no podríamos hacer de estos podcasts círculos seguros, deberíamos aprovechar este potencial para convertirlos en un espacio para amplificar la voz de las mujeres y llevar a públiconuestras reflexiones sobre temas de nuestro territorio. Tras los tres primeros episodios, inauguramos una segunda etapa. Serían otros 3 episodios con un nuevo formato, diseñados para tratar la construcción de lared comunitaria como territorio virtual.
 

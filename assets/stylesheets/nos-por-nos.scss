@@ -265,12 +265,13 @@ h1 {
   position: relative;
 }
 
-#transcricao-selfcare:not(:target),
-#transcricao-dreams:not(:target),
-#transcricao-virus:not(:target),
-#transcricao-fences:not(:target),
+#transcricao-autocuidado:not(:target),
 #transcricao-building:not(:target),
-#transcricao-spinning:not(:target) {
+#transcricao-dreams:not(:target),
+#transcricao-fences:not(:target),
+#transcricao-selfcare:not(:target),
+#transcricao-spinning:not(:target),
+#transcricao-virus:not(:target) {
   display: none;
   opacity: 0;
 }

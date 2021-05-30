@@ -79,7 +79,7 @@ es: &es
   more: 'Mas'
   next_post: 'Proximo Post'
   notice_no_js: 'Uuuu... si ve que el JavaScript no esta habilitado.'
-  notice_old_ie: 'Estas utilizando un navegador viejito. Porfa, <a href="http://browsehappy.com/" target="_blank">actualize su navegador</a>:
+  notice_old_ie: 'Estas utilizando un navegador viejito. Porfa, <a href="http://browsehappy.com/" target="_blank">actualize su navegador</a>'
   page_404_content: 'Opa! Seras redireccionada a la <a href="/">pagina inicial</a> en poco segundos.'
   page_404_heading: 'Disculpa, página no encontrada.'
   published: 'Publicado'

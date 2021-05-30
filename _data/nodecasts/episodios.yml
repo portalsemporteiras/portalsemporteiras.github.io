@@ -1,36 +1,72 @@
 - audio: npn_ep1_protecao.mp4
-  titulo: {
-    en: Digital Self-care,
-    pt: Autocuidado Digital
+  en: {
+    titulo: Digital Self-care,
+    transcricao: transcricao-selfcare
   }
-  transcricao: transcricao-selfcare
+  es: {
+    titulo: Autocuidado Digital,
+    transcricao: transcricao-autocuidado
+  }
+  pt: {
+    titulo: Digital Self-care,
+  }
 - audio: npn_ep2_virus.mp3
-  titulo: {
-    en: Virus!,
-    pt: Vírus!
+  en: {
+    titulo: Virus!,
+    transcricao: transcricao-virus
   }
-  transcricao: transcricao-virus
+  es: {
+    titulo: ¡Vírus!,
+    transcricao: transcricao-virus-es
+  }
+  pt: {
+    titulo: Vírus!,
+  }
 - audio: npn_ep3_sonhos.mp3
-  titulo: {
-    en: Dreams and Digital Unconscious,
-    pt: Sonhos e Incosciente Digital
+  en: {
+    titulo: Dreams and Digital Unconscious,
+    transcricao: transcricao-dreams
   }
-  transcricao: transcricao-dreams
+  es: {
+    titulo: ,
+    transcricao: transcricao
+  }
+  pt: {
+    titulo: Sonhos e Incosciente Digital,
+  }
 - audio: npn_ep4_cercas.mp3
-  titulo: {
-    en: "Fences",
-    pt: "Cercas"
+  en: {
+    titulo: Fences,
+    transcricao: transcricao-fences
   }
-  transcricao: transcricao-fences
+  es: {
+    titulo: ,
+    transcricao: transcricao
+  }
+  pt: {
+    titulo: Cercas,
+  }
 - audio: npn_ep5_construcao.mp3
-  titulo: {
-    en: "Territory Construct",
-    pt: "Construção de Território"
+  en: {
+    titulo: Territory Construct,
+    transcricao: transcricao-building
   }
-  transcricao: transcricao-building
+  es: {
+    titulo: ,
+    transcricao: transcricao
+  }
+  pt: {
+    titulo: Construção de Território,
+  }
 - audio: npn_ep6_tecendo.mp3
-  titulo: {
-    en: "Spinning the web of a Community Network",
-    pt: "Tecendo uma Rede Comunitária"
+  en: {
+    titulo: Spinning the web of a Community Network,
+    transcricao: transcricao-spinning
   }
-  transcricao: transcricao-spinning
+  es: {
+    titulo: ,
+    transcricao: transcricao
+  }
+  pt: {
+    titulo: Tecendo uma Rede Comunitária,
+  }
