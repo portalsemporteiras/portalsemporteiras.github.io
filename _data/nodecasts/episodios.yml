@@ -40,8 +40,8 @@
     transcricao: transcricao-fences
   }
   es: {
-    titulo: ,
-    transcricao: transcricao
+    titulo: Cercados,
+    transcricao: transcricao-cercados
   }
   pt: {
     titulo: Cercas,
