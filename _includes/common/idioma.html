@@ -1,0 +1,9 @@
+<div class="idioma">
+  {% assign nos-por-nos = site.data[page.lang].nos-por-nos %}
+  <a href=" {{ site.baseurl | append: '/en' | append: page.url }}" title="{{ site.data['en'].nos-por-nos.link-idioma }}">EN</a>
+  |
+  <a href=" {{ site.baseurl | append: '/es' | append: page.url }}" title="{{ site.data['es'].nos-por-nos.link-idioma }}">ES</a>
+  |
+  <a href=" {{ site.baseurl | append: page.url }}" title="{{ site.data['pt'].nos-por-nos.link-idioma }}">PT</a>
+</div>
+
