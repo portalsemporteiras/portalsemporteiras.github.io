@@ -8,7 +8,7 @@ descricao-nodecast: "Haga clic aquí para escuchar los episodios de Nodecast"
 descricao-novella: "Haga clic aquí para escuchar la Audio Novella"
 descricao-capa-novella: "Image presentando el texto El Secreto de la Montaña, seguido por el perfil de una mujer acostada y su pelo sigue como un río por una montaña. Abajo sigue un texto diciendo Un Audio Novella Producido en el Barrio del Souzas, siguido del logo de la red comunitaria Portal sem Porteiras"
 livro: {
-  arquivo: "/assets/documentos/libro-nos-por-nos.pdf",
+  arquivo: "/assets/documentos/apostila-nos-por-nos-esp.pdf",
   capa: "/assets/images/nos-por-nos/livro.jpg",
   legenda: "Una montaña con casas en su tope y arriba de ellas, una red mesh conectando cada una a un nodo.",
   msg-download: "Baje nuestro libro",
