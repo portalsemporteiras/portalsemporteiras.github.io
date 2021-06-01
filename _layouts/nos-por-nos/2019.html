@@ -10,20 +10,22 @@ layout: nos-por-nos/base
 <div class="texto">
   {{ content }}
 
-  {% assign apostila = nos-por-nos.apostila %}
-  {% if apostila %}
   <div class="apostila">
-  {% assign apostila = nos-por-nos.apostila %}
+    {% assign apostila = nos-por-nos.apostila %}
+    {% if apostila %}
     <a href="{{ site.url | append: apostila.arquivo }}" title="{{ apostila.msg-download }}" target="_blank">
       <span>{{ apostila.titulo }}</span>
       <img src="{{ site.url | append: apostila.capa }}" alt="{{ apostila.legenda }}"/>
     </a>
+    {% endif %}
 
-  {% assign livro = nos-por-nos.livro %}
+    {% assign livro = nos-por-nos.livro %}
+    {% if livro %}
     <a href="{{ site.url | append: livro.arquivo }}" title="{{ livro.msg-download }}" target="_blank">
       <span>{{ livro.titulo }}</span>
       <img src="{{ site.url | append: livro.capa }}" alt="{{ livro.legenda }}"/>
     </a>
+    {% endif %}
 
     {% if page.lang == 'en' %}
     <a href="{{ site.url }}/assets/documentos/newsletter.pdf" title="Download our newsletter">
@@ -32,5 +34,4 @@ layout: nos-por-nos/base
     </a>
     {% endif %}
   </div>
-  {% endif %}
 </div>
