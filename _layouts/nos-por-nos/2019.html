@@ -13,9 +13,16 @@ layout: nos-por-nos/base
   {% assign apostila = nos-por-nos.apostila %}
   {% if apostila %}
   <div class="apostila">
-    <a href="{{ site.url | append: apostila.arquivo }}" title="{{ apostila.msg-download }}">
+  {% assign apostila = nos-por-nos.apostila %}
+    <a href="{{ site.url | append: apostila.arquivo }}" title="{{ apostila.msg-download }}" target="_blank">
       <span>{{ apostila.titulo }}</span>
-      <img src="{{ site.url | append: apostila.capa }}" title="{{ apostila.legenda }}"/>
+      <img src="{{ site.url | append: apostila.capa }}" alt="{{ apostila.legenda }}"/>
+    </a>
+
+  {% assign livro = nos-por-nos.livro %}
+    <a href="{{ site.url | append: livro.arquivo }}" title="{{ livro.msg-download }}" target="_blank">
+      <span>{{ livro.titulo }}</span>
+      <img src="{{ site.url | append: livro.capa }}" alt="{{ livro.legenda }}"/>
     </a>
 
     {% if page.lang == 'en' %}

@@ -1,16 +1,23 @@
 titulo: "Nós por Nós"
 link-idioma: "Clique aqui para acessar o conteúdo da página em Português"
 link-index: "Clique aqui para ir à pagina inicial do projeto"
-descricao-imagem-2020: "Foto de três mulheres sentadas no chão, usando tapa boca e em volta delas equipamentos eletrônicos, como computadores e monitores."
-descricao-imagem-2019: "Foto de mulheres sentadas em cículo, conversando"
+descricao-imagem-2020: "3 mulheres sentadas no chão, usando tapa boca e em volta delas equipamentos eletrônicos, como computadores e monitores."
+descricao-imagem-2019: "Mulheres sentadas em cículo, conversando"
 descricao-nodecast: "Clique aqui para escutar os Nodecasts"
 descricao-novella: "Clique aqui para escutar a Audio Novella"
 apostila: {
   arquivo: "/assets/documentos/apostila-nos-por-nos.pdf",
   capa: "/assets/images/nos-por-nos/apostila.png",
-  legenda: "Desenho de uma montanha com casas no topo dela e sobre as casas, uma rede conectando cada uma e em cada nó, um simbolo de feminino",
+  legenda: "Uma montanha com casas no topo e sobre elas, uma rede conectando cada uma a um nó.",
   msg-download: "Baixe a nossa apostila",
   titulo: "Apostila",
 }
-descricao-capa-novella: "Imagem apresentando o texto O segredo da montanha, contendo a silhueta de uma mulher na horizontal e seus cabelos seguem como o rio correndo em uma montanha. Logo abaixo o texto Uma audio novela produzida no Bairro do Souzas, seguido pelo logotipo da rede comunitaria Portal sem Porteiras"
+livro: {
+  arquivo: "/assets/documentos/livro-nos-por-nos.pdf",
+  capa: "/assets/images/nos-por-nos/livro.jpg",
+  legenda: "Uma montanha com casas no topo e sobre elas, uma rede conectando cada uma a um nó.",
+  msg-download: "Baixe o nosso livro",
+  titulo: "Livro",
+}
+descricao-capa-novella: "'O segredo da montanha' como título, abaixo a silhueta de uma mulher na horizontal e seus cabelos seguem como o rio correndo em uma montanha. Logo abaixo o texto 'Uma audio novela produzida no Bairro do Souzas', seguido pelo logotipo da rede comunitaria Portal sem Porteiras"
 capitulo: "Capítulo"

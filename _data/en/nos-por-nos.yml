@@ -1,17 +1,24 @@
 titulo: "Nodes that Bond"
 link-index: "Click here to go to project's home page"
 link-idioma: "Click here to access the page's content in English"
-descricao-imagem-2020: "Picture of 3 women sitdown at floor, wearing masks and around them are eletronic equipments, like computers and monitors"
-descricao-imagem-2019: "Picture of a women's circle, chatting"
-descricao-capa-2020: "Picture of women sitdown, using computers and wearing masks"
+descricao-imagem-2020: "3 women sitdown at floor, wearing masks and around them are eletronic equipments, like computers and monitors"
+descricao-imagem-2019: "A women's circle, chatting"
+descricao-capa-2020: "Women sitdown, using computers and wearing masks"
 descricao-nodecast: "Click here to linsten to Nodecasts episodes"
 descricao-novella: "Click here to listen to Audio Novella"
 apostila: {
   arquivo: "/assets/documentos/workbook-nodes-that-bond.pdf",
   capa: "/assets/images/nos-por-nos/workbook.png",
-  legenda: "A draw of a montain, with houses on top of it and above them a mesh connecting each house, where each node is a feminism icon",
+  legenda: "A montain, with houses on top of it and above of them a mesh network connecting all houses",
   msg-download: "Download our Workbook",
   titulo: Workbook
 }
-descricao-capa-novella: "Picture showing the text The Montain Secret, followed by a woman perfil at horizontal and her hair goes like a river by a montain. Below follows a text saying A Audio Novella Produced at Souzas' Neighborhood, followed by the community network Portal sem Porteiras' logo"
+livro: {
+  arquivo: "/assets/documentos/book-nodes-that-bond.pdf",
+  capa: "/assets/images/nos-por-nos/book.jpg",
+  legenda: "A montain, with houses on top of it and above of them a mesh network connecting all houses",
+  msg-download: "Download our Book",
+  titulo: Book
+}
+descricao-capa-novella: "A text 'The Montain Secret', followed by a woman perfil at horizontal and her hair goes like a river by a montain. Below follows a text saying A Audio Novella Produced at Souzas' Neighborhood, followed by the community network Portal sem Porteiras' logo"
 capitulo: "Chapter"
