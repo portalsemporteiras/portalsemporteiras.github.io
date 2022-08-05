@@ -1,6 +1,6 @@
 ---
 layout: nos-por-nos/index
-title: "Nós por Nós"
+title: "Nodos por Nosotras"
 permalink: /nos-por-nos/
 lang: es
 ---
