@@ -1,6 +1,6 @@
 ---
 layout: nos-por-nos/index
-title: "Node that Bond"
+title: "Nodes that Bond"
 permalink: /nos-por-nos/
 lang: en
 ---
